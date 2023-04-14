@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+  netatalk:
+    image: servercontainers/netatalk:latest
+    restart: unless-stopped
+    ports:
+      - 548:548
+    expose:
+      - 548
+    volumes:
+      - ./afp.conf:/etc/afp.conf
+      # Without the :rw on the end, you run into permission issues
+      # when copying from Mac OS 9 to the Netatalk host
+      - ${SHARED_DIR}:/shares/files:rw

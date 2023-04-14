@@ -1,0 +1,10 @@
+version: '3.3'
+
+services:
+  webone:
+    image: u306060/webone
+    restart: unless-stopped
+    ports:
+      - 8080:8080
+    volumes:
+      - ./webone:/home/webone
