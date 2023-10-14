@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   webone:
-    image: u306060/webone
+    image: u306060/webone:0.16.0
     restart: unless-stopped
     ports:
       - 8080:8080
