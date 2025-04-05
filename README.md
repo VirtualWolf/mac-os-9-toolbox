@@ -41,3 +41,5 @@ convert pict:"Picture 1" "Picture 1.png"
 ## Fun things
 * [Macstodon](https://github.com/smallsco/macstodon) — A Mastodon client for Mac OS 9 and earlier
 * [Escape Velocity: Override](https://www.macintoshrepository.org/9213-escape-velocity-override) — A space combat/trading game. Needs a serial number which can be generated using [ARRT](https://github.com/spolsley/ARRT)
+* [hotline](https://github.com/mierau/hotline) — A modern [Hotline](https://en.wikipedia.org/wiki/Hotline_Communications) client written in SwiftUI
+* [mobius](https://github.com/jhalter/mobius) — A cross-platform CLI-only Hotline server written in Go
